@@ -3,7 +3,7 @@
 var User = require('../models/user');
 
 // Conseguir datos de un usuario
-function getUser(req, res){
+exports.getUser = function(req, res){
     var userId = req.params.id;
 //buscar un documento por un  id
     User.findById(userId, (err, user) => {
