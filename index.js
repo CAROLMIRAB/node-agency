@@ -9,7 +9,7 @@ var port = 27017;
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://admin-mongo_13:19sxcGG0MbCE5bLx@cluster0-qpjgr.mongodb.net/test?retryWrites=true&w=majority',  { useMongoClient: true})
+mongoose.connect('mongodb+srv://admin-mongo_13:19sxcGG0MbCE5bLx@cluster0-qpjgr.mongodb.net/test?retryWrites=true&w=majority',  { useNewUrlParser: true })
     .then(() => {
        
         console.log("La conexión a la base de datos curso_mean_social se ha realizado correctamente")
