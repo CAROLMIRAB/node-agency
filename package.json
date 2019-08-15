@@ -4,7 +4,9 @@
   "description": "agency proyect",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "nojoders",
   "license": "ISC",
@@ -16,9 +18,13 @@
     "jwt-simple": "^0.5.6",
     "moment": "^2.24.0",
     "mongoose": "^5.6.9",
-    "mongoose-pagination": "^1.0.0"
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "^1.9.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.14.12",
+    "webpack": "^4.39.2"
   }
 }
