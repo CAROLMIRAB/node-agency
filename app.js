@@ -3,9 +3,9 @@
 // Cargamos los módulos de express y body-parser
 var express = require('express');
 var bodyParser = require('body-parser');
-// Llamamos a express para poder crear el servidor
+
 var app = express();
-// Importamos las rutas
+
 var user_routes = require('./routes/user'); 
 //cargar middlewares
 //un metodo que se ejecuta antes que llegue a un controlador
