@@ -6,6 +6,8 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
+app.use(express.static('public'));
+
 var user_routes = require('./routes/user'); 
 //cargar middlewares
 //un metodo que se ejecuta antes que llegue a un controlador
@@ -13,6 +15,6 @@ var user_routes = require('./routes/user');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.json());
 // Cargamos las rutas
-app.use('/api', user_routes);
+app.use('/', user_routes);
 // exportamos este módulo para poder usar la variable app fuera de este archivo
 module.exports = app;

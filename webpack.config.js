@@ -1,7 +1,9 @@
+const path = require('path');
+
 module.exports = {
     entry: './app/index.js', 
     output: {
-        path: __dirname + '/public',
+        path: path.resolve(__dirname, './public/assets/js'),
         filename: 'bundle.js'
     },
     module: {
