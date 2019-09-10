@@ -32,15 +32,14 @@ export default class Header extends Component {
                                         <li>
                                             {/* inner menu: contains the actual data */}
                                             <ul className="menu">
-                                                <li>
-                                                    {/* start message */}
+                                                <li>{/* start message */}
                                                     <a href="#">
                                                         <div className="pull-left">
                                                             <img src="dist/img/user2-160x160.jpg" className="img-circle" alt="User Image" />
                                                         </div>
                                                         <h4>
                                                             Support Team
-                      <small><i className="fa fa-clock-o" /> 5 mins</small>
+                        <small><i className="fa fa-clock-o" /> 5 mins</small>
                                                         </h4>
                                                         <p>Why not buy a new awesome theme?</p>
                                                     </a>
@@ -53,7 +52,7 @@ export default class Header extends Component {
                                                         </div>
                                                         <h4>
                                                             AdminLTE Design Team
-                      <small><i className="fa fa-clock-o" /> 2 hours</small>
+                        <small><i className="fa fa-clock-o" /> 2 hours</small>
                                                         </h4>
                                                         <p>Why not buy a new awesome theme?</p>
                                                     </a>
@@ -65,7 +64,7 @@ export default class Header extends Component {
                                                         </div>
                                                         <h4>
                                                             Developers
-                      <small><i className="fa fa-clock-o" /> Today</small>
+                        <small><i className="fa fa-clock-o" /> Today</small>
                                                         </h4>
                                                         <p>Why not buy a new awesome theme?</p>
                                                     </a>
@@ -77,7 +76,7 @@ export default class Header extends Component {
                                                         </div>
                                                         <h4>
                                                             Sales Department
-                      <small><i className="fa fa-clock-o" /> Yesterday</small>
+                        <small><i className="fa fa-clock-o" /> Yesterday</small>
                                                         </h4>
                                                         <p>Why not buy a new awesome theme?</p>
                                                     </a>
@@ -89,7 +88,7 @@ export default class Header extends Component {
                                                         </div>
                                                         <h4>
                                                             Reviewers
-                      <small><i className="fa fa-clock-o" /> 2 days</small>
+                        <small><i className="fa fa-clock-o" /> 2 days</small>
                                                         </h4>
                                                         <p>Why not buy a new awesome theme?</p>
                                                     </a>
@@ -113,28 +112,28 @@ export default class Header extends Component {
                                                 <li>
                                                     <a href="#">
                                                         <i className="fa fa-users text-aqua" /> 5 new members joined today
-                  </a>
+                    </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fa fa-warning text-yellow" /> Very long description here that may not fit into the
                                                         page and may cause design problems
-                  </a>
+                    </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fa fa-users text-red" /> 5 new members joined
-                  </a>
+                    </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fa fa-shopping-cart text-green" /> 25 sales made
-                  </a>
+                    </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i className="fa fa-user text-red" /> You changed your username
-                  </a>
+                    </a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -152,12 +151,11 @@ export default class Header extends Component {
                                         <li>
                                             {/* inner menu: contains the actual data */}
                                             <ul className="menu">
-                                                <li>
-                                                    {/* Task item */}
+                                                <li>{/* Task item */}
                                                     <a href="#">
                                                         <h3>
                                                             Design some buttons
-                      <small className="pull-right">20%</small>
+                        <small className="pull-right">20%</small>
                                                         </h3>
                                                         <div className="progress xs">
                                                             <div className="progress-bar progress-bar-aqua" style={{ width: '20%' }} role="progressbar" aria-valuenow={20} aria-valuemin={0} aria-valuemax={100}>
@@ -167,12 +165,11 @@ export default class Header extends Component {
                                                     </a>
                                                 </li>
                                                 {/* end task item */}
-                                                <li>
-                                                    {/* Task item */}
+                                                <li>{/* Task item */}
                                                     <a href="#">
                                                         <h3>
                                                             Create a nice theme
-                      <small className="pull-right">40%</small>
+                        <small className="pull-right">40%</small>
                                                         </h3>
                                                         <div className="progress xs">
                                                             <div className="progress-bar progress-bar-green" style={{ width: '40%' }} role="progressbar" aria-valuenow={20} aria-valuemin={0} aria-valuemax={100}>
@@ -182,12 +179,11 @@ export default class Header extends Component {
                                                     </a>
                                                 </li>
                                                 {/* end task item */}
-                                                <li>
-                                                    {/* Task item */}
+                                                <li>{/* Task item */}
                                                     <a href="#">
                                                         <h3>
                                                             Some task I need to do
-                      <small className="pull-right">60%</small>
+                        <small className="pull-right">60%</small>
                                                         </h3>
                                                         <div className="progress xs">
                                                             <div className="progress-bar progress-bar-red" style={{ width: '60%' }} role="progressbar" aria-valuenow={20} aria-valuemin={0} aria-valuemax={100}>
@@ -197,12 +193,11 @@ export default class Header extends Component {
                                                     </a>
                                                 </li>
                                                 {/* end task item */}
-                                                <li>
-                                                    {/* Task item */}
+                                                <li>{/* Task item */}
                                                     <a href="#">
                                                         <h3>
                                                             Make beautiful transitions
-                      <small className="pull-right">80%</small>
+                        <small className="pull-right">80%</small>
                                                         </h3>
                                                         <div className="progress xs">
                                                             <div className="progress-bar progress-bar-yellow" style={{ width: '80%' }} role="progressbar" aria-valuenow={20} aria-valuemin={0} aria-valuemax={100}>
@@ -231,7 +226,7 @@ export default class Header extends Component {
                                             <img src="dist/img/user2-160x160.jpg" className="img-circle" alt="User Image" />
                                             <p>
                                                 Alexander Pierce - Web Developer
-                <small>Member since Nov. 2012</small>
+                  <small>Member since Nov. 2012</small>
                                             </p>
                                         </li>
                                         {/* Menu Body */}
@@ -268,8 +263,8 @@ export default class Header extends Component {
                         </div>
                     </nav>
                 </header>
-
             </div>
+
         )
     }
 }
