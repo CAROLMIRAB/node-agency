@@ -1060,8 +1060,7 @@ class App extends Component {
               </div>
             </aside>
             <div className="control-sidebar-bg"></div>
-          </div>*/
-          
+          </div>*/          
         );
     }
 }
