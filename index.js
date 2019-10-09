@@ -1,22 +1,36 @@
 
+var mysql = require('mysql');
+
+
+var connection = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "local12345",
+    database: "agency",
+    port: 3306
+});
+
+connection.connect();
+
+module.exports = connection;
+/*
 'use strict'
 
-var mongoose = require('mongoose');
-
+var mysql = require('mysql');
 var app = require('./app');
 
-var port = 3008;
+var con = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "local12345",
+    database: "agency",
+    port: 3306
+  });
 
-mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://admin-mongo_13:19sxcGG0MbCE5bLx@cluster0-qpjgr.mongodb.net/test?retryWrites=true&w=majority',  { useNewUrlParser: true })
-    .then(() => {
-       
-        console.log("La conexión a la base de datos curso_mean_social se ha realizado correctamente")
-
-        app.listen(port, () => {
-            console.log("servidor corriendo en atlas");
-        });
+con.connect(function(err){
+        console.log("La conexión a la base de datos agency se ha realizado correctamente");
+       if (err)  throw console.log(err);
     })
-    
-    .catch(err => console.log(err));
+ 
+ module.exports = {'Conexion': con} */
